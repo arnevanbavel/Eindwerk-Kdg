@@ -1,0 +1,127 @@
+  body{
+    margin-top: 100px;
+    background-color: #5C8A46;
+    background: -webkit-linear-gradient(315deg, #5C8A46 0%, #5C8A46 30%, #9ceb77 100%) fixed;
+    background: linear-gradient(135deg, #5C8A46 0%, #5C8A46 30%, #9ceb77 100%) fixed;
+  }
+  
+button.social-signin {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin.facebook {
+  background: #32508E;
+}
+
+  .panel-info>.panel-heading {
+    color: #fff;
+    background-color: #01b888;
+    border-color: #01b888;
+  }
+
+  .panel-info {
+    border-color: #01b888;
+  }
+
+
+  .trahscan{
+    color: red;
+  }
+
+  .material-switch > input[type="checkbox"] {
+    display: none;   
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 40px;  
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+
+.table-user-information {
+  width: 100%;
+}
+
+
+.table-user-information td{
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+}
+
+    body .table-user-information input{
+    }
+
+
+@media(max-width:626px) {
+
+    body .table-user-information input{
+      width:300px;
+      padding-left: 10px;
+    }
+}
+
+@media (max-width:480px) {
+
+    body .table-user-information input{
+      width:200px;
+    }
+
+        button.social-signin {
+  width: 170px;
+  }
+}

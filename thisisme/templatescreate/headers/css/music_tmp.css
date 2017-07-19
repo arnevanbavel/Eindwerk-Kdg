@@ -1,0 +1,38 @@
+.header_music_tmp
+{
+  background-size:cover;
+  position:relative;
+  height:500px;
+  padding-top: 60px !important;
+}
+
+.header_music_tmp .content-div
+{
+  position:absolute;
+  top: 40%; 
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 600px;
+  max-width: 80%;
+  text-align:center;
+  color:#fff;
+  font-size:30px;
+  text-transform: uppercase;
+  font-family: Montserrat,sans-serif;
+}
+
+.header_music_tmp .content-div h1{
+  padding-top: 0px;
+  font-weight: 300;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+
+.header_music_tmp .content-div p{
+  margin: 0 0 10px;
+}
+
+.header_music_tmp hr {
+    width: 50px;
+    border-color: #c59a6d;
+}

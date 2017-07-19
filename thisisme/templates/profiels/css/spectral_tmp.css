@@ -1,0 +1,65 @@
+  .profiel_spectral_tmp .spotlight {
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+  }
+
+  .profiel_spectral_tmp h2 {
+    font-size: 1.35em;
+    line-height: 1.75em;
+}
+
+.profiel_spectral_tmp h1,.profiel_spectral_tmp h2,.profiel_spectral_tmp h3,.profiel_spectral_tmp h4,.profiel_spectral_tmp h5,.profiel_spectral_tmp h6 {
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.225em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+  }
+  .profiel_spectral_tmp p {
+    margin: 0 0 2em 0;
+    color: white;
+  }
+
+.profiel_spectral_tmp {
+    background-color: #2e3842;
+}
+.profiel_spectral_tmp {
+    padding: 0;
+}
+
+.profiel_spectral_tmp .spotlight .image {
+      -moz-order: 1;
+      -webkit-order: 1;
+      -ms-order: 1;
+      order: 1;
+      border-radius: 0;
+      width: 40%;
+    }
+
+      .profiel_spectral_tmp .spotlight .image img {
+        border-radius: 0;
+        width: 100%;
+      }
+
+    .profiel_spectral_tmp .spotlight .content {
+      padding: 2em 4em 0.1em 4em ;
+      -moz-order: 2;
+      -webkit-order: 2;
+      -ms-order: 2;
+      order: 2;
+      max-width: 55em;
+      width: 60%;
+    }
+
+    .profiel_spectral_tmp .spotlight:nth-child(2n) {
+      -moz-flex-direction: row-reverse;
+      -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
+    }

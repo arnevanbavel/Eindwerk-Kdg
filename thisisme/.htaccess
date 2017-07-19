@@ -1,0 +1,4 @@
+DirectoryIndex index.php
+ErrorDocument 404 http://arnevanbavel.multimediatechnology.be/thisisme/
+ErrorDocument 403 http://arnevanbavel.multimediatechnology.be/thisisme/
+ErrorDocument 500 http://arnevanbavel.multimediatechnology.be/thisisme/

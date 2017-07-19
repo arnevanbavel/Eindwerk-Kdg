@@ -1,0 +1,30 @@
+.profiel_stanley_tmp #ww {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #f2f2f2;
+}
+
+.profiel_stanley_tmp .centered {
+    text-align: center;
+}
+
+.profiel_stanley_tmp .avatar{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height:200px;
+    width:200px;
+}
+
+.profiel_stanley_tmp .avatar img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.profiel_stanley_tmp hr{
+    width: 50px;
+    height: 5px;
+    background-color: #01b888;
+}

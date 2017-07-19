@@ -1,0 +1,326 @@
+.headersection {
+  	color: #fff;
+  	height: 100vh;
+  	padding-top: 60px !important;
+  	background-color: #fff;
+  -webkit-transition: 0.5s ease;
+  	transition: 0.5s ease;
+}
+section h1 {
+  	margin: 0;
+}
+
+/* start feature */
+#feature
+    {
+        color: black;
+        background: #f8f8f8;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+#feature p
+    {
+        padding-top: 10px;
+    }
+#feature span
+    {
+        float: left;
+    }
+#feature .fa
+    {
+        background: #28a7e9;
+        border-radius: 50%;
+        color: #fff;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin-right: 20px;
+    }
+/* end feature */
+
+/* start feature1 */
+#feature1
+    {
+        color: black;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+#feature1 p
+    {
+        padding-top: 10px;
+    }
+#feature1 span
+    {
+        float: left;
+    }
+#feature1 .fa
+    {
+        background: #28a7e9;
+        border-radius: 50%;
+        color: #fff;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin-right: 20px;
+    }
+/* end feature1 */
+
+.button {
+  display: inline-block;
+  margin: 0.3em;
+  padding: 0.6em 2em;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  border: none; 
+  text-align: center;
+}
+
+.button:hover {
+  box-shadow: 1px 6px 15px rgba(0,0,0,0.5);
+}
+
+.green {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#page-1 {
+	background: url("../img/home-page.JPG");
+  background-size: cover;
+  background-repeat: repeat, no-repeat;
+/* background-position: top left,center center; */
+}
+#intro-hero {
+  margin-top: 100px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 0.5px rgba(0,0,0,0.3);
+}
+.white {
+  color: #fff;
+  text-shadow: 1px 1px 0.5px rgba(0,0,0,0.3);
+}
+#page-1 h3 {
+  font-size: 20px;
+  margin: 5px 0;
+  opacity: 0.8;
+}
+#page-1 #free.btn.green {
+  margin-top: 20px;
+  background: green;
+}
+#page-1 .flash-preview {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 10px;
+  color: #fff;
+}
+/* What is Multiplier Slide */
+#page-2 {
+  position: relative;
+  background: -webkit-linear-gradient(40deg, rgba(57,203,88,0.7), rgba(27,30,39,0.6));
+  background: linear-gradient(50deg, rgba(209,211,37,0.7), rgba(136,189,220,0.6));
+  background-repeat: no-repeat;
+  text-align: center;
+  z-index: 100;
+}
+#page-2:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("../img/map-dots.png");
+  background-size: fixed;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+#page-2 h1 {
+  margin: 0 auto;
+}
+
+.top_cont_outer{
+  background:#f9f9f9;
+  position:relative;
+  }
+  
+.top_cont_inner img{
+    padding-top: 110px;
+  }
+  
+.top_content{
+  position:relative;
+  }
+  
+.white_pad{
+  position:relative;
+  right:0px;
+  bottom:0px;
+  }
+  
+.white_pad img{
+  position: absolute;
+  right:0px;
+  bottom:0px;
+  }
+  
+.top_left_cont{
+  padding:110px 0;
+  
+  }
+  
+.top_left_cont h3{
+  font-size:16px;
+  color:#01b888;
+  margin:0 0 20px 0;
+  text-align:left;
+  font-family:'Ubuntu';
+  font-weight: 700;
+  }
+  
+.top_left_cont h2{
+  font-size:40px;
+  color:#111111;
+  line-height: 52px;
+  margin:0 0 26px 0;
+  font-family:'Ubuntu';
+  text-align:left;
+  font-weight:700;
+  }
+  
+.top_left_cont p{
+  font-size:16px;
+  color:#888888;
+  margin:0 0 30px 0;
+  line-height: 26px;
+  font-family:'Ubuntu';
+  }
+
+a.learn_more2{
+  font-family: 'Ubuntu';
+  display:block;
+  font-size:16px;
+  color:#ffffff;
+  background:#49b5e7;
+  width:178px;
+  height:46px;
+  line-height:46px;
+  border-radius:3px;
+  text-align:center;
+  font-family:'Ubuntu';
+  text-transform:uppercase;
+  font-weight: 600;
+  transition:all 0.2s ease-in-out;
+  -moz-transition:all 0.2s ease-in-out;
+  -webkit-transition:all 0.2s ease-in-out;
+  }
+a.learn_more2:hover{
+  background:#222222;
+  }
+
+
+  /**************/
+
+@media (min-width: 450px) {
+  h1.heading {
+    font-size: 3.55em;
+  }
+}
+@media (min-width: 760px) {
+  h1.heading {
+    font-size: 3.05em;
+  }
+}
+@media (min-width: 900px) {
+  h1.heading {
+    font-size: 3.25em;
+    margin: 0 0 0.3em;
+  }
+} 
+.carbox {
+  display: block; 
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+    transition: box-shadow .25s; 
+}
+.carbox:hover {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.img-carbox {
+  width: 100%;
+  height:200px;
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+  display:block;
+    overflow: hidden;
+}
+.img-carbox img{
+  width: 100%;
+  height: 200px;
+  object-fit:cover; 
+  transition: all .25s ease;
+} 
+.carbox-content {
+  padding:15px;
+  text-align:left;
+}
+.carbox-title {
+  margin-top:0px;
+  font-weight: 700;
+  font-size: 1.65em;
+}
+.carbox-title a {
+  color: #000;
+  text-decoration: none !important;
+}
+.carbox-read-more {
+  border-top: 1px solid #D4D4D4;
+}
+.carbox-read-more a {
+  text-decoration: none !important;
+  padding:10px;
+  font-weight:600;
+  text-transform: uppercase
+  color: #01b888;
+}
+
+.newheader{
+  font-size: 30px;
+  font-weight: bold;
+    color: #111111;
+    line-height: 52px;
+    margin: 0 0 26px 0;
+    font-family: 'Ubuntu';
+    text-align: center;
+}
+
+.memberSection{
+  background-color: #f9f9f9;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.videoSection{
+  background-color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
